@@ -1,0 +1,229 @@
+\begin{landscape}
+\begin{longtable}{|l|l|l|l|l|c|c|c|c|c|c|}
+\caption{Stroke Detection Experiment Results using only the first 900 frames for training (SF~:=~Scaling Factor, P~:=~Precision, R~:=~Recall, F1~:=~F1-Score)} \label{tab:_900_Stroke_Detection_Results} \\
+\toprule
+Model & Frame Mode & Data Type & SF & Split & Accuracy & Macro P & Macro R & Macro F1 & Weighted P & Weighted F1 \\
+\midrule
+\endfirsthead
+\caption[]{Stroke Detection Experiment Results using only the first 900 frames for training (SF~:=~Scaling Factor, P~:=~Precision, R~:=~Recall, F1~:=~F1-Score)} \\
+\toprule
+Model & Frame Mode & Data Type & SF & Split & Accuracy & Macro P & Macro R & Macro F1 & Weighted P & Weighted F1 \\
+\midrule
+\endhead
+\midrule
+\multicolumn{11}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+Quant & CL\_NS & MFCCs & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Quant & CL\_NS & MFCCs & 0.3 & Val & 0.868 & 0.897 & 0.737 & 0.779 & 0.877 & 0.852 \\
+Quant & CL\_NS & MFCCs & 0.3 & Test & 0.863 & 0.870 & 0.708 & 0.749 & 0.865 & 0.845 \\
+Quant & CL\_NS & MFCCs & 0.7 & Train & 0.998 & 0.997 & 0.998 & 0.998 & 0.998 & 0.998 \\
+Quant & CL\_NS & MFCCs & 0.7 & Val & 0.857 & 0.862 & 0.840 & 0.847 & 0.859 & 0.855 \\
+Quant & CL\_NS & MFCCs & 0.7 & Test & 0.823 & 0.829 & 0.801 & 0.809 & 0.825 & 0.819 \\
+Quant & CL\_NS & MFCCs & 1 & Train & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 \\
+Quant & CL\_NS & MFCCs & 1 & Val & 0.816 & 0.817 & 0.817 & 0.816 & 0.818 & 0.816 \\
+Quant & CL\_NS & MFCCs & 1 & Test & 0.803 & 0.803 & 0.803 & 0.803 & 0.803 & 0.803 \\
+Quant & CL\_NS & MFCCs & 2 & Train & 0.998 & 0.997 & 0.998 & 0.997 & 0.998 & 0.998 \\
+Quant & CL\_NS & MFCCs & 2 & Val & 0.807 & 0.794 & 0.751 & 0.765 & 0.803 & 0.799 \\
+Quant & CL\_NS & MFCCs & 2 & Test & 0.794 & 0.783 & 0.739 & 0.753 & 0.790 & 0.786 \\
+Quant & CL\_NS & Waveforms & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Quant & CL\_NS & Waveforms & 0.3 & Val & 0.884 & 0.896 & 0.777 & 0.815 & 0.887 & 0.874 \\
+Quant & CL\_NS & Waveforms & 0.3 & Test & 0.887 & 0.886 & 0.767 & 0.806 & 0.887 & 0.877 \\
+Quant & CL\_NS & Waveforms & 0.7 & Train & 0.998 & 0.997 & 0.998 & 0.998 & 0.998 & 0.998 \\
+Quant & CL\_NS & Waveforms & 0.7 & Val & 0.827 & 0.830 & 0.807 & 0.814 & 0.828 & 0.824 \\
+Quant & CL\_NS & Waveforms & 0.7 & Test & 0.839 & 0.843 & 0.820 & 0.828 & 0.841 & 0.836 \\
+Quant & CL\_NS & Waveforms & 1 & Train & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 \\
+Quant & CL\_NS & Waveforms & 1 & Val & 0.813 & 0.816 & 0.814 & 0.813 & 0.817 & 0.813 \\
+Quant & CL\_NS & Waveforms & 1 & Test & 0.798 & 0.799 & 0.796 & 0.797 & 0.798 & 0.798 \\
+Quant & CL\_NS & Waveforms & 2 & Train & 0.998 & 0.997 & 0.998 & 0.997 & 0.998 & 0.998 \\
+Quant & CL\_NS & Waveforms & 2 & Val & 0.802 & 0.778 & 0.764 & 0.770 & 0.799 & 0.800 \\
+Quant & CL\_NS & Waveforms & 2 & Test & 0.792 & 0.772 & 0.749 & 0.758 & 0.787 & 0.787 \\
+Quant & CL\_SW\_NS & MFCCs & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Quant & CL\_SW\_NS & MFCCs & 0.3 & Val & 0.965 & 0.953 & 0.953 & 0.953 & 0.965 & 0.965 \\
+Quant & CL\_SW\_NS & MFCCs & 0.3 & Test & 0.970 & 0.956 & 0.956 & 0.956 & 0.970 & 0.970 \\
+Quant & CL\_SW\_NS & MFCCs & 0.7 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Quant & CL\_SW\_NS & MFCCs & 0.7 & Val & 0.948 & 0.943 & 0.952 & 0.946 & 0.950 & 0.948 \\
+Quant & CL\_SW\_NS & MFCCs & 0.7 & Test & 0.961 & 0.959 & 0.963 & 0.961 & 0.962 & 0.961 \\
+Quant & CL\_SW\_NS & MFCCs & 1 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Quant & CL\_SW\_NS & MFCCs & 1 & Val & 0.957 & 0.957 & 0.957 & 0.957 & 0.957 & 0.957 \\
+Quant & CL\_SW\_NS & MFCCs & 1 & Test & 0.969 & 0.969 & 0.969 & 0.969 & 0.969 & 0.969 \\
+Quant & CL\_SW\_NS & MFCCs & 2 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Quant & CL\_SW\_NS & MFCCs & 2 & Val & 0.968 & 0.971 & 0.958 & 0.964 & 0.968 & 0.968 \\
+Quant & CL\_SW\_NS & MFCCs & 2 & Test & 0.963 & 0.962 & 0.956 & 0.959 & 0.963 & 0.963 \\
+Quant & CL\_SW\_NS & Waveforms & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Quant & CL\_SW\_NS & Waveforms & 0.3 & Val & 0.949 & 0.948 & 0.917 & 0.931 & 0.949 & 0.949 \\
+Quant & CL\_SW\_NS & Waveforms & 0.3 & Test & 0.944 & 0.922 & 0.915 & 0.918 & 0.944 & 0.944 \\
+Quant & CL\_SW\_NS & Waveforms & 0.7 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Quant & CL\_SW\_NS & Waveforms & 0.7 & Val & 0.952 & 0.950 & 0.950 & 0.950 & 0.952 & 0.952 \\
+Quant & CL\_SW\_NS & Waveforms & 0.7 & Test & 0.948 & 0.946 & 0.948 & 0.947 & 0.948 & 0.948 \\
+Quant & CL\_SW\_NS & Waveforms & 1 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Quant & CL\_SW\_NS & Waveforms & 1 & Val & 0.939 & 0.939 & 0.939 & 0.939 & 0.939 & 0.939 \\
+Quant & CL\_SW\_NS & Waveforms & 1 & Test & 0.944 & 0.944 & 0.944 & 0.944 & 0.944 & 0.944 \\
+Quant & CL\_SW\_NS & Waveforms & 2 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Quant & CL\_SW\_NS & Waveforms & 2 & Val & 0.950 & 0.951 & 0.939 & 0.944 & 0.950 & 0.950 \\
+Quant & CL\_SW\_NS & Waveforms & 2 & Test & 0.958 & 0.953 & 0.953 & 0.953 & 0.958 & 0.958 \\
+MultiRocket & CL\_NS & MFCCs & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+MultiRocket & CL\_NS & MFCCs & 0.3 & Val & 0.842 & 0.813 & 0.719 & 0.748 & 0.834 & 0.828 \\
+MultiRocket & CL\_NS & MFCCs & 0.3 & Test & 0.853 & 0.802 & 0.732 & 0.758 & 0.843 & 0.843 \\
+MultiRocket & CL\_NS & MFCCs & 0.7 & Train & 0.998 & 0.997 & 0.998 & 0.998 & 0.998 & 0.998 \\
+MultiRocket & CL\_NS & MFCCs & 0.7 & Val & 0.776 & 0.770 & 0.759 & 0.763 & 0.774 & 0.774 \\
+MultiRocket & CL\_NS & MFCCs & 0.7 & Test & 0.784 & 0.777 & 0.772 & 0.774 & 0.783 & 0.783 \\
+MultiRocket & CL\_NS & MFCCs & 1 & Train & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 \\
+MultiRocket & CL\_NS & MFCCs & 1 & Val & 0.748 & 0.748 & 0.748 & 0.748 & 0.748 & 0.748 \\
+MultiRocket & CL\_NS & MFCCs & 1 & Test & 0.736 & 0.736 & 0.737 & 0.736 & 0.737 & 0.736 \\
+MultiRocket & CL\_NS & MFCCs & 2 & Train & 0.998 & 0.997 & 0.998 & 0.997 & 0.998 & 0.998 \\
+MultiRocket & CL\_NS & MFCCs & 2 & Val & 0.755 & 0.722 & 0.709 & 0.715 & 0.750 & 0.752 \\
+MultiRocket & CL\_NS & MFCCs & 2 & Test & 0.736 & 0.703 & 0.692 & 0.696 & 0.730 & 0.732 \\
+MultiRocket & CL\_NS & Waveforms & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+MultiRocket & CL\_NS & Waveforms & 0.3 & Val & 0.876 & 0.863 & 0.779 & 0.809 & 0.873 & 0.868 \\
+MultiRocket & CL\_NS & Waveforms & 0.3 & Test & 0.868 & 0.836 & 0.751 & 0.781 & 0.862 & 0.859 \\
+MultiRocket & CL\_NS & Waveforms & 0.7 & Train & 0.998 & 0.998 & 0.998 & 0.998 & 0.998 & 0.998 \\
+MultiRocket & CL\_NS & Waveforms & 0.7 & Val & 0.812 & 0.809 & 0.797 & 0.802 & 0.811 & 0.811 \\
+MultiRocket & CL\_NS & Waveforms & 0.7 & Test & 0.825 & 0.823 & 0.810 & 0.815 & 0.824 & 0.823 \\
+MultiRocket & CL\_NS & Waveforms & 1 & Train & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 \\
+MultiRocket & CL\_NS & Waveforms & 1 & Val & 0.818 & 0.821 & 0.819 & 0.818 & 0.821 & 0.818 \\
+MultiRocket & CL\_NS & Waveforms & 1 & Test & 0.795 & 0.794 & 0.794 & 0.794 & 0.794 & 0.794 \\
+MultiRocket & CL\_NS & Waveforms & 2 & Train & 0.998 & 0.997 & 0.998 & 0.997 & 0.998 & 0.998 \\
+MultiRocket & CL\_NS & Waveforms & 2 & Val & 0.800 & 0.774 & 0.767 & 0.770 & 0.798 & 0.799 \\
+MultiRocket & CL\_NS & Waveforms & 2 & Test & 0.774 & 0.747 & 0.744 & 0.745 & 0.772 & 0.773 \\
+MultiRocket & CL\_SW\_NS & MFCCs & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+MultiRocket & CL\_SW\_NS & MFCCs & 0.3 & Val & 0.957 & 0.950 & 0.935 & 0.942 & 0.957 & 0.957 \\
+MultiRocket & CL\_SW\_NS & MFCCs & 0.3 & Test & 0.962 & 0.940 & 0.951 & 0.945 & 0.963 & 0.962 \\
+MultiRocket & CL\_SW\_NS & MFCCs & 0.7 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+MultiRocket & CL\_SW\_NS & MFCCs & 0.7 & Val & 0.942 & 0.938 & 0.943 & 0.940 & 0.943 & 0.942 \\
+MultiRocket & CL\_SW\_NS & MFCCs & 0.7 & Test & 0.954 & 0.953 & 0.953 & 0.953 & 0.954 & 0.954 \\
+MultiRocket & CL\_SW\_NS & MFCCs & 1 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+MultiRocket & CL\_SW\_NS & MFCCs & 1 & Val & 0.947 & 0.947 & 0.947 & 0.947 & 0.947 & 0.947 \\
+MultiRocket & CL\_SW\_NS & MFCCs & 1 & Test & 0.951 & 0.951 & 0.951 & 0.951 & 0.951 & 0.951 \\
+MultiRocket & CL\_SW\_NS & MFCCs & 2 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+MultiRocket & CL\_SW\_NS & MFCCs & 2 & Val & 0.954 & 0.955 & 0.944 & 0.949 & 0.954 & 0.954 \\
+MultiRocket & CL\_SW\_NS & MFCCs & 2 & Test & 0.960 & 0.958 & 0.952 & 0.955 & 0.960 & 0.960 \\
+MultiRocket & CL\_SW\_NS & Waveforms & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+MultiRocket & CL\_SW\_NS & Waveforms & 0.3 & Val & 0.955 & 0.951 & 0.927 & 0.938 & 0.954 & 0.954 \\
+MultiRocket & CL\_SW\_NS & Waveforms & 0.3 & Test & 0.970 & 0.956 & 0.956 & 0.956 & 0.970 & 0.970 \\
+MultiRocket & CL\_SW\_NS & Waveforms & 0.7 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+MultiRocket & CL\_SW\_NS & Waveforms & 0.7 & Val & 0.969 & 0.966 & \textbf{0.971} & 0.968 & 0.970 & 0.969 \\
+MultiRocket & CL\_SW\_NS & Waveforms & 0.7 & Test & \textbf{0.977} & \textbf{0.975} & 0.977 & 0.976 & 0.977 & 0.977 \\
+MultiRocket & CL\_SW\_NS & Waveforms & 1 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+MultiRocket & CL\_SW\_NS & Waveforms & 1 & Val & 0.951 & 0.950 & 0.951 & 0.951 & 0.951 & 0.951 \\
+MultiRocket & CL\_SW\_NS & Waveforms & 1 & Test & 0.966 & 0.966 & 0.966 & 0.966 & 0.966 & 0.966 \\
+MultiRocket & CL\_SW\_NS & Waveforms & 2 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+MultiRocket & CL\_SW\_NS & Waveforms & 2 & Val & 0.963 & 0.963 & 0.956 & 0.959 & 0.963 & 0.963 \\
+MultiRocket & CL\_SW\_NS & Waveforms & 2 & Test & 0.958 & 0.951 & 0.955 & 0.953 & 0.958 & 0.958 \\
+Hydra & CL\_NS & MFCCs & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Hydra & CL\_NS & MFCCs & 0.3 & Val & 0.852 & 0.838 & 0.730 & 0.762 & 0.848 & 0.838 \\
+Hydra & CL\_NS & MFCCs & 0.3 & Test & 0.871 & 0.870 & 0.731 & 0.771 & 0.871 & 0.856 \\
+Hydra & CL\_NS & MFCCs & 0.7 & Train & 0.998 & 0.998 & 0.998 & 0.998 & 0.998 & 0.998 \\
+Hydra & CL\_NS & MFCCs & 0.7 & Val & 0.837 & 0.837 & 0.821 & 0.827 & 0.837 & 0.835 \\
+Hydra & CL\_NS & MFCCs & 0.7 & Test & 0.812 & 0.811 & 0.796 & 0.801 & 0.812 & 0.810 \\
+Hydra & CL\_NS & MFCCs & 1 & Train & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 \\
+Hydra & CL\_NS & MFCCs & 1 & Val & 0.796 & 0.797 & 0.796 & 0.796 & 0.797 & 0.796 \\
+Hydra & CL\_NS & MFCCs & 1 & Test & 0.771 & 0.770 & 0.771 & 0.770 & 0.771 & 0.771 \\
+Hydra & CL\_NS & MFCCs & 2 & Train & 0.998 & 0.997 & 0.998 & 0.997 & 0.998 & 0.998 \\
+Hydra & CL\_NS & MFCCs & 2 & Val & 0.799 & 0.774 & 0.761 & 0.767 & 0.795 & 0.796 \\
+Hydra & CL\_NS & MFCCs & 2 & Test & 0.781 & 0.755 & 0.749 & 0.752 & 0.778 & 0.779 \\
+Hydra & CL\_NS & Waveforms & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Hydra & CL\_NS & Waveforms & 0.3 & Val & 0.839 & 0.810 & 0.714 & 0.743 & 0.831 & 0.824 \\
+Hydra & CL\_NS & Waveforms & 0.3 & Test & 0.855 & 0.819 & 0.721 & 0.752 & 0.847 & 0.842 \\
+Hydra & CL\_NS & Waveforms & 0.7 & Train & 0.998 & 0.997 & 0.998 & 0.998 & 0.998 & 0.998 \\
+Hydra & CL\_NS & Waveforms & 0.7 & Val & 0.810 & 0.804 & 0.800 & 0.802 & 0.810 & 0.810 \\
+Hydra & CL\_NS & Waveforms & 0.7 & Test & 0.788 & 0.781 & 0.778 & 0.780 & 0.788 & 0.788 \\
+Hydra & CL\_NS & Waveforms & 1 & Train & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 \\
+Hydra & CL\_NS & Waveforms & 1 & Val & 0.792 & 0.792 & 0.792 & 0.792 & 0.793 & 0.792 \\
+Hydra & CL\_NS & Waveforms & 1 & Test & 0.803 & 0.803 & 0.804 & 0.803 & 0.804 & 0.803 \\
+Hydra & CL\_NS & Waveforms & 2 & Train & 0.998 & 0.997 & 0.998 & 0.997 & 0.998 & 0.998 \\
+Hydra & CL\_NS & Waveforms & 2 & Val & 0.809 & 0.787 & 0.770 & 0.777 & 0.805 & 0.806 \\
+Hydra & CL\_NS & Waveforms & 2 & Test & 0.767 & 0.741 & 0.723 & 0.730 & 0.761 & 0.762 \\
+Hydra & CL\_SW\_NS & MFCCs & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Hydra & CL\_SW\_NS & MFCCs & 0.3 & Val & 0.965 & 0.951 & 0.956 & 0.953 & 0.965 & 0.965 \\
+Hydra & CL\_SW\_NS & MFCCs & 0.3 & Test & 0.955 & 0.921 & 0.954 & 0.936 & 0.958 & 0.955 \\
+Hydra & CL\_SW\_NS & MFCCs & 0.7 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Hydra & CL\_SW\_NS & MFCCs & 0.7 & Val & 0.958 & 0.953 & 0.962 & 0.956 & 0.960 & 0.958 \\
+Hydra & CL\_SW\_NS & MFCCs & 0.7 & Test & 0.961 & 0.959 & 0.964 & 0.961 & 0.963 & 0.961 \\
+Hydra & CL\_SW\_NS & MFCCs & 1 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Hydra & CL\_SW\_NS & MFCCs & 1 & Val & 0.957 & 0.959 & 0.956 & 0.957 & 0.958 & 0.957 \\
+Hydra & CL\_SW\_NS & MFCCs & 1 & Test & 0.970 & 0.971 & 0.971 & 0.970 & 0.971 & 0.970 \\
+Hydra & CL\_SW\_NS & MFCCs & 2 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Hydra & CL\_SW\_NS & MFCCs & 2 & Val & 0.966 & 0.971 & 0.953 & 0.961 & 0.966 & 0.965 \\
+Hydra & CL\_SW\_NS & MFCCs & 2 & Test & 0.957 & 0.956 & 0.947 & 0.951 & 0.957 & 0.956 \\
+Hydra & CL\_SW\_NS & Waveforms & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Hydra & CL\_SW\_NS & Waveforms & 0.3 & Val & 0.955 & 0.951 & 0.927 & 0.938 & 0.954 & 0.954 \\
+Hydra & CL\_SW\_NS & Waveforms & 0.3 & Test & 0.967 & 0.950 & 0.954 & 0.952 & 0.967 & 0.967 \\
+Hydra & CL\_SW\_NS & Waveforms & 0.7 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Hydra & CL\_SW\_NS & Waveforms & 0.7 & Val & 0.946 & 0.943 & 0.945 & 0.944 & 0.946 & 0.946 \\
+Hydra & CL\_SW\_NS & Waveforms & 0.7 & Test & 0.973 & 0.972 & 0.974 & 0.972 & 0.973 & 0.973 \\
+Hydra & CL\_SW\_NS & Waveforms & 1 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Hydra & CL\_SW\_NS & Waveforms & 1 & Val & 0.947 & 0.947 & 0.948 & 0.947 & 0.948 & 0.947 \\
+Hydra & CL\_SW\_NS & Waveforms & 1 & Test & 0.952 & 0.953 & 0.953 & 0.952 & 0.953 & 0.952 \\
+Hydra & CL\_SW\_NS & Waveforms & 2 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Hydra & CL\_SW\_NS & Waveforms & 2 & Val & 0.964 & 0.964 & 0.957 & 0.961 & 0.964 & 0.964 \\
+Hydra & CL\_SW\_NS & Waveforms & 2 & Test & 0.959 & 0.959 & 0.949 & 0.954 & 0.959 & 0.959 \\
+Voting & CL\_NS & MFCCs & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Voting & CL\_NS & MFCCs & 0.3 & Val & 0.858 & 0.873 & 0.722 & 0.761 & 0.862 & 0.840 \\
+Voting & CL\_NS & MFCCs & 0.3 & Test & 0.863 & 0.862 & 0.713 & 0.753 & 0.863 & 0.846 \\
+Voting & CL\_NS & MFCCs & 0.7 & Train & 0.998 & 0.997 & 0.998 & 0.998 & 0.998 & 0.998 \\
+Voting & CL\_NS & MFCCs & 0.7 & Val & 0.855 & 0.860 & 0.837 & 0.845 & 0.857 & 0.852 \\
+Voting & CL\_NS & MFCCs & 0.7 & Test & 0.829 & 0.832 & 0.810 & 0.817 & 0.830 & 0.826 \\
+Voting & CL\_NS & MFCCs & 1 & Train & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 \\
+Voting & CL\_NS & MFCCs & 1 & Val & 0.811 & 0.813 & 0.812 & 0.811 & 0.813 & 0.811 \\
+Voting & CL\_NS & MFCCs & 1 & Test & 0.783 & 0.782 & 0.783 & 0.782 & 0.783 & 0.783 \\
+Voting & CL\_NS & MFCCs & 2 & Train & 0.998 & 0.997 & 0.998 & 0.997 & 0.998 & 0.998 \\
+Voting & CL\_NS & MFCCs & 2 & Val & 0.810 & 0.794 & 0.762 & 0.773 & 0.806 & 0.805 \\
+Voting & CL\_NS & MFCCs & 2 & Test & 0.782 & 0.761 & 0.734 & 0.743 & 0.776 & 0.776 \\
+Voting & CL\_NS & Waveforms & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Voting & CL\_NS & Waveforms & 0.3 & Val & 0.876 & 0.903 & 0.753 & 0.795 & 0.884 & 0.862 \\
+Voting & CL\_NS & Waveforms & 0.3 & Test & 0.879 & 0.878 & 0.749 & 0.789 & 0.879 & 0.867 \\
+Voting & CL\_NS & Waveforms & 0.7 & Train & 0.998 & 0.997 & 0.998 & 0.998 & 0.998 & 0.998 \\
+Voting & CL\_NS & Waveforms & 0.7 & Val & 0.853 & 0.857 & 0.835 & 0.843 & 0.854 & 0.851 \\
+Voting & CL\_NS & Waveforms & 0.7 & Test & 0.851 & 0.855 & 0.834 & 0.841 & 0.852 & 0.849 \\
+Voting & CL\_NS & Waveforms & 1 & Train & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 & 0.996 \\
+Voting & CL\_NS & Waveforms & 1 & Val & 0.835 & 0.837 & 0.836 & 0.835 & 0.838 & 0.835 \\
+Voting & CL\_NS & Waveforms & 1 & Test & 0.813 & 0.813 & 0.813 & 0.813 & 0.813 & 0.813 \\
+Voting & CL\_NS & Waveforms & 2 & Train & 0.998 & 0.997 & 0.998 & 0.997 & 0.998 & 0.998 \\
+Voting & CL\_NS & Waveforms & 2 & Val & 0.824 & 0.803 & 0.791 & 0.796 & 0.821 & 0.822 \\
+Voting & CL\_NS & Waveforms & 2 & Test & 0.798 & 0.776 & 0.762 & 0.768 & 0.794 & 0.795 \\
+Voting & CL\_SW\_NS & MFCCs & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Voting & CL\_SW\_NS & MFCCs & 0.3 & Val & 0.965 & 0.953 & 0.953 & 0.953 & 0.965 & 0.965 \\
+Voting & CL\_SW\_NS & MFCCs & 0.3 & Test & 0.972 & 0.955 & 0.966 & 0.960 & 0.973 & 0.972 \\
+Voting & CL\_SW\_NS & MFCCs & 0.7 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Voting & CL\_SW\_NS & MFCCs & 0.7 & Val & 0.954 & 0.949 & 0.957 & 0.952 & 0.956 & 0.954 \\
+Voting & CL\_SW\_NS & MFCCs & 0.7 & Test & 0.965 & 0.963 & 0.967 & 0.965 & 0.966 & 0.965 \\
+Voting & CL\_SW\_NS & MFCCs & 1 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Voting & CL\_SW\_NS & MFCCs & 1 & Val & 0.962 & 0.963 & 0.961 & 0.962 & 0.962 & 0.962 \\
+Voting & CL\_SW\_NS & MFCCs & 1 & Test & 0.972 & 0.972 & 0.972 & 0.972 & 0.973 & 0.972 \\
+Voting & CL\_SW\_NS & MFCCs & 2 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Voting & CL\_SW\_NS & MFCCs & 2 & Val & \textbf{0.972} & \textbf{0.976} & 0.963 & \textbf{0.969} & \textbf{0.973} & \textbf{0.972} \\
+Voting & CL\_SW\_NS & MFCCs & 2 & Test & 0.964 & 0.963 & 0.957 & 0.960 & 0.964 & 0.964 \\
+Voting & CL\_SW\_NS & Waveforms & 0.3 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Voting & CL\_SW\_NS & Waveforms & 0.3 & Val & 0.955 & 0.951 & 0.927 & 0.938 & 0.954 & 0.954 \\
+Voting & CL\_SW\_NS & Waveforms & 0.3 & Test & 0.965 & 0.952 & 0.944 & 0.948 & 0.964 & 0.964 \\
+Voting & CL\_SW\_NS & Waveforms & 0.7 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Voting & CL\_SW\_NS & Waveforms & 0.7 & Val & 0.967 & 0.964 & 0.968 & 0.966 & 0.967 & 0.967 \\
+Voting & CL\_SW\_NS & Waveforms & 0.7 & Test & \textbf{0.977} & 0.975 & \textbf{0.978} & \textbf{0.976} & \textbf{0.977} & \textbf{0.977} \\
+Voting & CL\_SW\_NS & Waveforms & 1 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Voting & CL\_SW\_NS & Waveforms & 1 & Val & 0.962 & 0.962 & 0.962 & 0.962 & 0.962 & 0.962 \\
+Voting & CL\_SW\_NS & Waveforms & 1 & Test & 0.974 & 0.974 & 0.974 & 0.974 & 0.974 & 0.974 \\
+Voting & CL\_SW\_NS & Waveforms & 2 & Train & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} & \textbf{1.000} \\
+Voting & CL\_SW\_NS & Waveforms & 2 & Val & 0.967 & 0.967 & 0.960 & 0.963 & 0.967 & 0.967 \\
+Voting & CL\_SW\_NS & Waveforms & 2 & Test & 0.966 & 0.964 & 0.959 & 0.962 & 0.965 & 0.965 \\
+\end{longtable}
+\end{landscape}
+
+\begin{table}[h]
+\caption{Stroke Detection Experiment Results Statistics using only the first 900 frames for training (excluding train split)}
+\label{tab:_900_Stroke_Detection_Results_Statistics}
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|}
+\toprule
+Metric & mean & std & min & Q1 & Median & Q3 & max & IQR & Range \\
+\midrule
+Accuracy & 0.89 & 0.08 & 0.74 & 0.81 & 0.91 & 0.96 & 0.98 & 0.15 & 0.24 \\
+Macro Precision & 0.88 & 0.08 & 0.70 & 0.81 & 0.91 & 0.95 & 0.98 & 0.15 & 0.27 \\
+Macro Recall & 0.86 & 0.10 & 0.69 & 0.77 & 0.88 & 0.95 & 0.98 & 0.18 & 0.29 \\
+Macro F1-Score & 0.87 & 0.09 & 0.70 & 0.78 & 0.88 & 0.95 & 0.98 & 0.17 & 0.28 \\
+Weighted Precision & 0.89 & 0.08 & 0.73 & 0.81 & 0.91 & 0.96 & 0.98 & 0.15 & 0.25 \\
+Weighted F1-Score & 0.89 & 0.08 & 0.73 & 0.81 & 0.91 & 0.96 & 0.98 & 0.15 & 0.24 \\
+\bottomrule
+\end{tabular}
+\end{table}

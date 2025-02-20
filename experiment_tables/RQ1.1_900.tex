@@ -1,0 +1,51 @@
+\begin{longtable}{|l|l|l|c|c|c|}
+\caption{RQ1.1 Stroke Detection Experiment Results for framing mode CL\_SW\_NS using only the first 900 frames for training} \label{tab:rq1.1_900_Stroke_Detection_Results} \\
+\toprule
+Model & Data Type & Split & Accuracy & Macro F1 & Weighted F1 \\
+\midrule
+\endfirsthead
+\caption[]{RQ1.1 Stroke Detection Experiment Results for framing mode CL\_SW\_NS} \\
+\toprule
+Model & Data Type & Split & Accuracy & Macro F1 & Weighted F1 \\
+\midrule
+\endhead
+\midrule
+\multicolumn{6}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+Quant & MFCCs & Val & 0.968 & 0.964 & 0.968 \\
+Quant & MFCCs & Test & 0.963 & 0.959 & 0.963 \\
+Quant & Waveforms & Val & 0.950 & 0.944 & 0.950 \\
+Quant & Waveforms & Test & 0.958 & 0.953 & 0.958 \\
+MultiRocket & MFCCs & Val & 0.954 & 0.949 & 0.954 \\
+MultiRocket & MFCCs & Test & 0.960 & 0.955 & 0.960 \\
+MultiRocket & Waveforms & Val & 0.963 & 0.959 & 0.963 \\
+MultiRocket & Waveforms & Test & 0.958 & 0.953 & 0.958 \\
+Hydra & MFCCs & Val & 0.966 & 0.961 & 0.965 \\
+Hydra & MFCCs & Test & 0.957 & 0.951 & 0.956 \\
+Hydra & Waveforms & Val & 0.964 & 0.961 & 0.964 \\
+Hydra & Waveforms & Test & 0.959 & 0.954 & 0.959 \\
+Voting & MFCCs & Val & \textbf{0.972} & \textbf{0.969} & \textbf{0.972} \\
+Voting & MFCCs & Test & 0.964 & 0.960 & 0.964 \\
+Voting & Waveforms & Val & 0.967 & 0.963 & 0.967 \\
+Voting & Waveforms & Test & \textbf{0.966} & \textbf{0.962} & \textbf{0.965} \\
+\end{longtable}
+
+\begin{table}[h]
+\caption{RQ1.1 Stroke Detection Experiment Results Statistics for framing mode CL\_SW\_NS using only the first 900 frames for training}
+\label{tab:rq1.1_900_Stroke_Detection_Results_Statistics}
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|}
+\toprule
+Metric & mean & std & min & Q1 & Median & Q3 & max & IQR & Range \\
+\midrule
+Accuracy & 0.96 & 0.01 & 0.95 & 0.96 & 0.96 & 0.97 & 0.97 & 0.01 & 0.02 \\
+Macro Precision & 0.96 & 0.01 & 0.95 & 0.96 & 0.96 & 0.96 & 0.98 & 0.01 & 0.03 \\
+Macro Recall & 0.95 & 0.01 & 0.94 & 0.95 & 0.96 & 0.96 & 0.96 & 0.01 & 0.02 \\
+Macro F1-Score & 0.96 & 0.01 & 0.94 & 0.95 & 0.96 & 0.96 & 0.97 & 0.01 & 0.02 \\
+Weighted Precision & 0.96 & 0.01 & 0.95 & 0.96 & 0.96 & 0.97 & 0.97 & 0.01 & 0.02 \\
+Weighted F1-Score & 0.96 & 0.01 & 0.95 & 0.96 & 0.96 & 0.97 & 0.97 & 0.01 & 0.02 \\
+\bottomrule
+\end{tabular}
+\end{table}

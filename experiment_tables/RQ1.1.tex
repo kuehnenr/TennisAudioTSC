@@ -1,0 +1,47 @@
+\begin{longtable}{|l|l|l|c|c|c|}
+\caption{RQ1.1 Stroke Detection Experiment Results for framing mode CL\_SW\_NS} \label{tab:rq1.1_Stroke_Detection_Results} \\
+\toprule
+Model & Data Type & Split & Accuracy & Macro F1 & Weighted F1 \\
+\midrule
+\endfirsthead
+\caption[]{RQ1.1 Stroke Detection Experiment Results for framing mode CL\_SW\_NS} \\
+\toprule
+Model & Data Type & Split & Accuracy & Macro F1 & Weighted F1 \\
+\midrule
+\endhead
+\midrule
+\multicolumn{6}{r}{Continued on next page} \\
+\midrule
+\endfoot
+\bottomrule
+\endlastfoot
+Quant & MFCCs & Val & 0.973 & 0.969 & 0.972 \\
+Quant & MFCCs & Test & 0.972 & 0.968 & 0.972 \\
+Quant & Waveforms & Val & 0.958 & 0.953 & 0.958 \\
+Quant & Waveforms & Test & 0.962 & 0.957 & 0.962 \\
+MultiRocket & MFCCs & Val & 0.963 & 0.959 & 0.963 \\
+MultiRocket & MFCCs & Test & 0.967 & 0.963 & 0.967 \\
+MultiRocket & Waveforms & Val & \textbf{0.977} & \textbf{0.974} & \textbf{0.977} \\
+MultiRocket & Waveforms & Test & 0.972 & 0.969 & 0.972 \\
+Hydra & MFCCs & Val & 0.974 & 0.971 & 0.974 \\
+Hydra & MFCCs & Test & 0.974 & 0.971 & 0.974 \\
+Voting & MFCCs & Val & 0.975 & 0.972 & 0.975 \\
+Voting & MFCCs & Test & \textbf{0.979} & \textbf{0.977} & \textbf{0.979} \\
+\end{longtable}
+
+\begin{table}[h]
+\caption{RQ1.1 Stroke Detection Experiment Results Statistics for framing mode CL\_SW\_NS}
+\label{tab:rq1.1_Stroke_Detection_Results_Statistics}
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|}
+\toprule
+Metric & mean & std & min & Q1 & Median & Q3 & max & IQR & Range \\
+\midrule
+Accuracy & 0.97 & 0.01 & 0.96 & 0.97 & 0.97 & 0.97 & 0.98 & 0.01 & 0.02 \\
+Macro Precision & 0.97 & 0.01 & 0.96 & 0.96 & 0.97 & 0.98 & 0.98 & 0.01 & 0.02 \\
+Macro Recall & 0.96 & 0.01 & 0.95 & 0.96 & 0.97 & 0.97 & 0.98 & 0.01 & 0.03 \\
+Macro F1-Score & 0.97 & 0.01 & 0.95 & 0.96 & 0.97 & 0.97 & 0.98 & 0.01 & 0.02 \\
+Weighted Precision & 0.97 & 0.01 & 0.96 & 0.97 & 0.97 & 0.97 & 0.98 & 0.01 & 0.02 \\
+Weighted F1-Score & 0.97 & 0.01 & 0.96 & 0.97 & 0.97 & 0.97 & 0.98 & 0.01 & 0.02 \\
+\bottomrule
+\end{tabular}
+\end{table}
